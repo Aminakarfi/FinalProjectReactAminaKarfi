@@ -19,7 +19,6 @@ const Header = () => {
                 <div className=''>
                     <img src={images.logo} alt="" />
                 </div>
-
                 {/* links div */}
                 <div className='links'>
                     <ul className='flex items-center gap-10'>
@@ -34,7 +33,6 @@ const Header = () => {
                         <li className='cursor-pointer text-[#333] text-[18px]'>Contact</li>
                     </ul>
                 </div>
-
                 {/* right div  */}
                 <div className='flex items-center gap-10'>
                     <div><FiUser size={30} className='text-gray-500'/></div>
