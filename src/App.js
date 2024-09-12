@@ -1,11 +1,17 @@
+import React from "react";
+
+import { Routes } from "react-router";
+import Header from "./layouts/Header";
 
 
 function App() {
   return (
-    <div >
-      <h1> hello</h1>
-    </div>
-  );
+    <>
+      <Header/>
+        <Routes />
+
+      </>
+      );
 }
 
-export default App;
+      export default App;
