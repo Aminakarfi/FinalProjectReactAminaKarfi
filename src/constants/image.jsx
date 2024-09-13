@@ -1,4 +1,5 @@
 export default {
     logo : require ('../assets/images/logo.png.webp'),
-    slide1: require('../assets/images/carousel1.jpg')
+    about1: require('../assets/images/image.png'),
+    about2: require('../assets/images/item-cart-01.jpg')
 }

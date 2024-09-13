@@ -2,6 +2,7 @@ import { images } from "../constants";
 
 
 export const About = () => {
+    
     return (
         <>
             <div>
