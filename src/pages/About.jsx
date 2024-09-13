@@ -1,13 +1,13 @@
-import { images } from "../../constants"
+import { images } from "../constants";
 
 
 export const About = () => {
     return (
         <>
             <div>
-                <img src={image.slide1} alt="" className='h-[35vh]  relative' />
+                <img src={images.slide1} alt="" className='h-[35vh] w-[100%] relative' />
                 <h1 className='absolute top-[25vh] left-[20vw] lg:top-[23vh] lg:left-[40vw] text-white font-bold text-7xl'>ABOUT</h1>
-            </div>
+            </div> 
             <div className='lg:flex lg:flex-row flex flex-col gap-9 p-11 '>
                 <img src={images.img2about}className='h-[70vh] lg:w-[28vw] w-[90vw]' alt="" />
                 <div className='flex flex-col gap-2'>
